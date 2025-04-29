@@ -12,7 +12,7 @@
     * test_c_a.md
     * test_c_b.md
 
-- Solution for API Server Test built in Flask"
+- Solution for API Server Test built in Flask:
     * test_d.py
 
 ## Installation
@@ -61,7 +61,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-#### ✅ To Run Test
+#### ✅ To Run Test for BE Test & API Server:
 ```bash
 python -v
 ```
