@@ -1,10 +1,6 @@
 # enstack_backend_test
 
 ![Python Version](https://img.shields.io/badge/python-3.12%2B-blue)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-
-A Python utility for generating and shuffling tuples while maintaining data integrity.
 
 ## Features
 
