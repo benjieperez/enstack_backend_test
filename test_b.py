@@ -37,15 +37,3 @@ def transform_data(section_a):
     # Create the final structure
     section_b = [build_hierarchy(manager) for manager in sorted(top_managers)]
     return section_b
-
-# Example usage
-section_a = [
-    {"manager_name": "nssi", "login_name": "nishanthi"},
-    {"manager_name": "mbarcelona", "login_name ": "nssi"},
-    {"manager_name": "nishanthi", "login_name": "markcorderoi"},
-    {"manager_name": "mbarcelona", "login_name ": "richard"},
-    {"manager_name": "letecia", "login_name ": "rudy"}
-]
-
-section_b = transform_data(section_a)
-print(json.dumps(section_b, indent=4))
