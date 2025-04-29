@@ -12,8 +12,8 @@ def transform_data(section_a):
     all_subordinates = set()
     
     for item in section_a:
-        # Handle items with "login_name" (some have trailing space in the example)
-        login_key = "login_name" if "login_name" in item else "login_name"
+        # Handle items with "login_name" (some have trailing space)
+        login_key = "login_name" if "login_name" in item else "login_name "
         login_name = item[login_key].strip()
         manager_name = item["manager_name"].strip()
         
